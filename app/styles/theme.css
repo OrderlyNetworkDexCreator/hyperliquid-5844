@@ -1,13 +1,27 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
 
-  /* font sizes */
+  /* font sizes (global scale) */
   --oui-font-size-xs: 10px;   /* small labels, table footers */
-  --oui-font-size-sm: 14px;   /* order book numbers, menu items */
-  --oui-font-size-md: 14px;   /* chart axis, data labels */
-  --oui-font-size-lg: 16px;   /* headings, prices */
-  --oui-font-size-xl: 20px;   /* section titles, modals */
-  --oui-font-size-2xl: 24px;  /* main page titles */
+  --oui-font-size-sm: 12px;   /* default small text */
+  --oui-font-size-md: 14px;   /* default body, chart labels */
+  --oui-font-size-lg: 16px;   /* nav items, headings */
+  --oui-font-size-xl: 20px;   /* section titles, key values */
+  --oui-font-size-2xl: 24px;  /* page titles */
+
+  /*  specific sizes (match reference) */
+  --oui-font-size-nav: var(--oui-font-size-lg);              /* 16px */
+  --oui-font-size-stats-label: var(--oui-font-size-sm);      /* 12px */
+  --oui-font-size-stats-value: var(--oui-font-size-md);      /* 14px */
+  --oui-font-size-chart-axis: var(--oui-font-size-sm);       /* 12px */
+  --oui-font-size-chart-lastprice: var(--oui-font-size-md);  /* 14px */
+  --oui-font-size-button: var(--oui-font-size-md);           /* 14px */
+  --oui-font-size-pair-name: var(--oui-font-size-xl);        /* 20px */
+
+  /*  order book dedicated sizes */
+  --oui-font-size-ob-header: 12px;   /* column headers / Spread label */
+  --oui-font-size-ob-row:    13px;   /* bid/ask rows */
+  --oui-font-size-ob-mid:    20px;   /* mid price */
 
   /* NEW: font weights + line-heights */
   --oui-font-weight-regular: 400;

@@ -9,6 +9,16 @@
   --oui-font-size-xl: 20px;   /* section titles, modals */
   --oui-font-size-2xl: 24px;  /* main page titles */
 
+  /* NEW: font weights + line-heights */
+  --oui-font-weight-regular: 400;
+  --oui-font-weight-medium: 500;
+  --oui-font-weight-semibold: 600;
+  --oui-font-weight-bold: 700;
+
+  --oui-line-height-tight: 1.15;
+  --oui-line-height-normal: 1.35;
+  --oui-line-height-loose: 1.5;
+
   /* colors */
   --oui-color-primary: 56 210 199;
   --oui-color-primary-light: 101 240 194;
@@ -54,9 +64,9 @@
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 217 139 139;
+  --oui-color-trading-loss: 217 139 139;        /* red sell text */
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 71 199 176;
+  --oui-color-trading-profit: 71 199 176;        /* green buy text */
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
@@ -93,7 +103,7 @@
   --oui-rounded-2xl: 0px;
   --oui-rounded-full: 9999px;
 
-  /* spacing */
+  /* spacing (kept as provided) */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;

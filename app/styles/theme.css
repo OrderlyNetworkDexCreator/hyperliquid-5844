@@ -2,7 +2,7 @@
   --oui-font-family: 'Manrope', sans-serif;
 
   /* global font sizes */
-  --oui-font-size-xs: 10px;   /* small labels, table footers */
+  --oui-font-size-xs: 12px;   /* small labels, table footers */
   --oui-font-size-sm: 12px;   /* default small text */
   --oui-font-size-md: 14px;   /* default body, chart labels */
   --oui-font-size-lg: 16px;   /* nav items, headings */

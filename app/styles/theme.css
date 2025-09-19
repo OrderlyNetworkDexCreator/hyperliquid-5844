@@ -1,6 +1,14 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
 
+  /* font sizes */
+  --oui-font-size-xs: 10px;   /* small labels, table footers */
+  --oui-font-size-sm: 12px;   /* order book numbers, menu items */
+  --oui-font-size-md: 14px;   /* chart axis, data labels */
+  --oui-font-size-lg: 16px;   /* headings, prices */
+  --oui-font-size-xl: 20px;   /* section titles, modals */
+  --oui-font-size-2xl: 24px;  /* main page titles */
+
   /* colors */
   --oui-color-primary: 56 210 199;
   --oui-color-primary-light: 101 240 194;

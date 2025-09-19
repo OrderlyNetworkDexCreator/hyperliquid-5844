@@ -1,7 +1,7 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
 
-  /* font sizes (global scale) */
+  /* global font sizes */
   --oui-font-size-xs: 10px;   /* small labels, table footers */
   --oui-font-size-sm: 12px;   /* default small text */
   --oui-font-size-md: 14px;   /* default body, chart labels */
@@ -9,21 +9,21 @@
   --oui-font-size-xl: 20px;   /* section titles, key values */
   --oui-font-size-2xl: 24px;  /* page titles */
 
-  /*  specific sizes (match reference) */
+  /* specific semantic font sizes */
   --oui-font-size-nav: var(--oui-font-size-lg);              /* 16px */
-  --oui-font-size-stats-label: var(--oui-font-size-sm);      /* 12px */
-  --oui-font-size-stats-value: var(--oui-font-size-md);      /* 14px */
+  --oui-font-size-stats-label: 12px;                         /* stats labels */
+  --oui-font-size-stats-value: 15px;                         /* stats values (was 14px) */
   --oui-font-size-chart-axis: var(--oui-font-size-sm);       /* 12px */
   --oui-font-size-chart-lastprice: var(--oui-font-size-md);  /* 14px */
   --oui-font-size-button: var(--oui-font-size-md);           /* 14px */
   --oui-font-size-pair-name: var(--oui-font-size-xl);        /* 20px */
 
-  /*  order book dedicated sizes */
-  --oui-font-size-ob-header: 12px;   /* column headers / Spread label */
-  --oui-font-size-ob-row:    13px;   /* bid/ask rows */
-  --oui-font-size-ob-mid:    20px;   /* mid price */
+  /*  order book specific sizes */
+  --oui-font-size-ob-header: 13px;   /* was 12px */
+  --oui-font-size-ob-row:    14px;   /* was 13px */
+  --oui-font-size-ob-mid:    19px;   /* was 20px */
 
-  /* NEW: font weights + line-heights */
+  /* font weights + line-heights */
   --oui-font-weight-regular: 400;
   --oui-font-weight-medium: 500;
   --oui-font-weight-semibold: 600;
@@ -117,7 +117,7 @@
   --oui-rounded-2xl: 0px;
   --oui-rounded-full: 9999px;
 
-  /* spacing (kept as provided) */
+  /* spacing */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
